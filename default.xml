@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git" />
+  <remote name="github" fetch="git@github.com:lironavrhmov" />
+
+  <default revision="kirkstone" remote="yocto" sync-j="4" />
+
+  <project path="poky" 
+           name="poky" 
+           revision="58f9b898daef8272184b1be176a18428f9f9d9b3" 
+           remote="yocto" />
+
+  <project path="poky/meta-custom-layer" 
+           name="meta-custom-layer" 
+           remote="github" 
+           revision="main" />
+
+</manifest>

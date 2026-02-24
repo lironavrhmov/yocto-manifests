@@ -3,7 +3,7 @@
 
   <remote name="yocto" fetch="https://git.yoctoproject.org/git" />
   <remote name="github" fetch="git@github.com:lironavrhmov" />
-  <remote name="local" fetch="/home/user/docker-yocto-project" />
+  <remote name="local" fetch="/home/user/docker-yocto-project/poky" />
 
   <default revision="kirkstone" remote="yocto" sync-j="4" />
 

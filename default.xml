@@ -12,6 +12,6 @@
   <project path="poky/meta-custom-layer" 
   	   name="meta-custom-layer"
   	   remote="local" 
-  	   revision="19b061a53ba84e7bfc11f78c5e9426eebd9771f9" />
+  	   revision="5f6c726d5178f71f3859615ba59e905489aa5ea5" />
   
 </manifest>

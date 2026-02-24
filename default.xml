@@ -3,17 +3,15 @@
 
   <remote name="yocto" fetch="https://git.yoctoproject.org/git" />
   <remote name="github" fetch="git@github.com:lironavrhmov" />
+  <remote name="local" fetch="/home/user/docker-yocto-project" />
 
   <default revision="kirkstone" remote="yocto" sync-j="4" />
 
-  <project path="poky" 
-           name="poky" 
-           revision="60bb7f84765edc403f2dd9223d88ffce5fc8db80" 
-           remote="yocto" />
+  <project path="poky" name="poky" revision="kirkstone" remote="yocto" />
 
   <project path="poky/meta-custom-layer" 
            name="meta-custom-layer" 
-           remote="github" 
-           revision="main" />
+           remote="local" 
+           revision="60bb7f84765edc403f2dd9223d88ffce5fc8db80" />
 
 </manifest>
